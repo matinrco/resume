@@ -2,14 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { HYDRATE, Context } from "next-redux-wrapper";
 import queryString from "query-string";
 import { RootState } from "src/services/store";
-import {
-    GetWeatherRequest,
-    GetWeatherResponse,
-    GetWeatherANSIRequest,
-    GetWeatherANSIResponse,
-    CreateFooRequest,
-    CreateFooResponse,
-} from "./types";
+import {} from "./types";
 
 export const api = createApi({
     reducerPath: "api",
@@ -63,28 +56,5 @@ export const api = createApi({
             return action.payload[reducerPath];
         }
     },
-    endpoints: (builder) => ({
-        createFoo: builder.mutation<CreateFooResponse, CreateFooRequest>({
-            query: (body) => ({
-                url: "foo-endpoint",
-                method: "POST",
-                body,
-            }),
-        }),
-        getWeather: builder.query<GetWeatherResponse, GetWeatherRequest>({
-            query: ({ city }) => ({
-                url: `https://wttr.in/${city}?format=j1`,
-                credentials: "omit",
-            }),
-        }),
-        getWeatherANSI: builder.query<
-            GetWeatherANSIResponse,
-            GetWeatherANSIRequest
-        >({
-            query: ({ city }) => ({
-                url: "weather/sample-ansi.html",
-                responseHandler: "text",
-            }),
-        }),
-    }),
+    endpoints: (builder) => ({}),
 });

@@ -8,25 +8,9 @@ const HomePage: NextPage = () => <Home />;
 
 export default HomePage;
 
-export const getServerSideProps = wrapper.getServerSideProps(
+export const getStaticProps = wrapper.getStaticProps(
     (store) =>
         async ({ locale }) => {
-            try {
-                const data = await store
-                    .dispatch(
-                        api.endpoints.getWeatherANSI.initiate({
-                            city: "Tehran",
-                        }),
-                    )
-                    .unwrap();
-            } catch (error) {}
-
-            // you can use:
-            // await Promise.all(
-            //     store.dispatch(api.util.getRunningQueriesThunk()),
-            // );
-            // instead of above await...try...catch
-
             return {
                 props: {
                     ...(await serverSideTranslations(locale || "", [
