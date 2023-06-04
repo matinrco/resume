@@ -24,7 +24,7 @@ const Heading = (): ReactElement => {
         <Box>
             <Group position="center">
                 <Image
-                    src="/matin-rezaei.jpg"
+                    src="matin-rezaei.jpg"
                     width={200}
                     height={200}
                     alt="Matin Rezaei"
