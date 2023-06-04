@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import {
     Box,
-    useMantineTheme,
     Image,
     Group,
     Stack,
@@ -23,7 +22,6 @@ import { TbBrandTelegram } from "react-icons/tb";
 
 const Heading = (): ReactElement => {
     const { t } = useTranslation(["common", "home"]);
-    const theme = useMantineTheme();
 
     return (
         <Box>

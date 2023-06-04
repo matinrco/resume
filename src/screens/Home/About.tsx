@@ -1,17 +1,9 @@
 import React, { ReactElement } from "react";
 import { useTranslation } from "next-i18next";
-import {
-    Box,
-    useMantineTheme,
-    Text,
-    Tooltip,
-    Mark,
-    Divider,
-} from "@mantine/core";
+import { Box, Text, Tooltip, Mark, Divider } from "@mantine/core";
 
 const About = (): ReactElement => {
     const { t } = useTranslation(["common", "home"]);
-    const theme = useMantineTheme();
 
     return (
         <Box my="xl">
@@ -57,7 +49,9 @@ const About = (): ReactElement => {
                 &nbsp;software engineer with a passion for problem solving and 6
                 years of experience. My main stack is Typescript, React, Nodejs.
                 I’m also full stack developer with TS/JS. Currently, I am a
-                senior front-end developer at Pars Tasmim company.
+                senior front-end developer at Pars Tasmim company. I have a
+                learner mindset and I&apos;m always looking for new ways to
+                improve my skills.
             </Text>
         </Box>
     );

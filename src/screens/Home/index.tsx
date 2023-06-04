@@ -10,6 +10,12 @@ import {
 } from "@mantine/core";
 import Heading from "./Heading";
 import About from "./About";
+import Skills from "./Skills";
+import Experience from "./Experience";
+import Volunteer from "./Volunteer";
+import Books from "./Books";
+import Education from "./Education";
+import Footer from "./Footer";
 
 const Home = (): ReactElement => {
     const { t } = useTranslation(["common", "home"]);
@@ -62,6 +68,12 @@ const Home = (): ReactElement => {
                 >
                     <Heading />
                     <About />
+                    <Skills />
+                    <Experience />
+                    <Volunteer />
+                    <Books />
+                    <Education />
+                    <Footer />
                 </Paper>
             </Container>
             <Space h={`calc(${theme.spacing.xl} * 5)`} />
