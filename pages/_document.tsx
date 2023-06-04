@@ -6,16 +6,13 @@ import Document, {
     NextScript,
 } from "next/document";
 import { ServerStyles, createStylesServer } from "@mantine/next";
-import { getDirection } from "src/services/localeUtils";
-import { ltrEmotionCache, rtlEmotionCache } from "src/services/emotionCache";
+import { emotionCache } from "src/services/emotionCache";
 
-const ltrStylesServer = createStylesServer(ltrEmotionCache);
-const rtlStylesServer = createStylesServer(rtlEmotionCache);
+const stylesServer = createStylesServer(emotionCache);
 
 class CustomDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
         const initialProps = await Document.getInitialProps(ctx);
-        const direction = getDirection(ctx.locale);
 
         return {
             ...initialProps,
@@ -23,14 +20,7 @@ class CustomDocument extends Document {
                 initialProps.styles,
                 <ServerStyles
                     html={initialProps.html}
-                    server={(() => {
-                        switch (direction) {
-                            case "rtl":
-                                return rtlStylesServer;
-                            case "ltr":
-                                return ltrStylesServer;
-                        }
-                    })()}
+                    server={stylesServer}
                     key="styles"
                 />,
             ],
@@ -38,10 +28,8 @@ class CustomDocument extends Document {
     }
 
     render() {
-        const direction = getDirection(this.props.locale);
-
         return (
-            <Html dir={direction}>
+            <Html dir="ltr" lang="en">
                 <Head />
                 <body>
                     <Main />

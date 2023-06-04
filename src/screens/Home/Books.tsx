@@ -1,10 +1,7 @@
 import React, { ReactElement } from "react";
-import { useTranslation } from "next-i18next";
 import { Box, Divider, List, Text } from "@mantine/core";
 
 const Books = (): ReactElement => {
-    const { t } = useTranslation(["common", "home"]);
-
     return (
         <Box my="xl">
             <Divider

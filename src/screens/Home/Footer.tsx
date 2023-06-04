@@ -1,10 +1,8 @@
 import React, { ReactElement } from "react";
 import Link from "next/link";
-import { useTranslation } from "next-i18next";
-import { Group, Text, Anchor, useMantineTheme, Stack } from "@mantine/core";
+import { Text, Anchor, useMantineTheme, Stack } from "@mantine/core";
 
 const Footer = (): ReactElement => {
-    const { t } = useTranslation(["common", "home"]);
     const theme = useMantineTheme();
 
     return (

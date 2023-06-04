@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import Link from "next/link";
-import { useTranslation } from "next-i18next";
 import {
     Box,
     Image,
@@ -21,8 +20,6 @@ import {
 import { TbBrandTelegram } from "react-icons/tb";
 
 const Heading = (): ReactElement => {
-    const { t } = useTranslation(["common", "home"]);
-
     return (
         <Box>
             <Group position="center">

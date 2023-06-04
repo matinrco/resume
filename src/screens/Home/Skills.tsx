@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import Link from "next/link";
-import { useTranslation } from "next-i18next";
 import {
     Box,
     Divider,
@@ -14,7 +13,6 @@ import {
 import { HiOutlineExternalLink } from "react-icons/hi";
 
 const Skills = (): ReactElement => {
-    const { t } = useTranslation(["common", "home"]);
     const theme = useMantineTheme();
 
     return (

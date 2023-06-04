@@ -1,5 +1,4 @@
 import React, { ReactElement } from "react";
-import { useTranslation } from "next-i18next";
 import {
     Box,
     Container,
@@ -18,7 +17,6 @@ import Education from "./Education";
 import Footer from "./Footer";
 
 const Home = (): ReactElement => {
-    const { t } = useTranslation(["common", "home"]);
     const theme = useMantineTheme();
 
     return (
