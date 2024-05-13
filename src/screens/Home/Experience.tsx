@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { Box, Divider, Text, List } from "@mantine/core";
+import { Box, Divider, Text, List, Space } from "@mantine/core";
 
 const Experience = (): ReactElement => {
     return (
@@ -15,14 +15,33 @@ const Experience = (): ReactElement => {
             </Text>
             <List pl="xs" mt="xs" c="gray.7" icon="•">
                 <List.Item>
-                    My main projects: marketplace, shop, e-shop light
+                    My main projects: marketplace, shop, e-shop light, document
+                    generator
                 </List.Item>
                 <List.Item>
                     Team building, review, training, solution providing, tooling
                     & structure.
                 </List.Item>
-                <List.Item>+6 years of experience</List.Item>
+                <List.Item>7 years of experience</List.Item>
                 <List.Item>Irancell partner</List.Item>
+            </List>
+            <Space h="md" />
+            <Text size="md" color="gray.7">
+                Senior front-end dev and QA/QC @Karen
+            </Text>
+            <List pl="xs" mt="xs" c="gray.7" icon="•">
+                <List.Item>
+                    Project name : torch (data-driven - nextjs app router - i18n
+                    - mantine - react query)
+                </List.Item>
+                <List.Item>
+                    QA engineer. collaborate in architecture and challenge it in
+                    every aspect.
+                </List.Item>
+                <List.Item>
+                    QC engineer. Implement cross service test project
+                    (Playwright)(planned)
+                </List.Item>
             </List>
         </Box>
     );

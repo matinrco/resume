@@ -23,8 +23,9 @@ const Volunteer = (): ReactElement => {
                     <Text>
                         Due to complex situation in my country & social
                         responsibility, I made a vpn stack based on xray/v2ray
-                        to bypass censorship & provide easy & reliable access
-                        for people for free or less than a dollar.
+                        to circumvent internet censorship & provide easy &
+                        reliable access for people for free or less than a
+                        dollar.
                     </Text>
                     <Text>Consist of:</Text>
                     <List c="gray.7" icon="•">

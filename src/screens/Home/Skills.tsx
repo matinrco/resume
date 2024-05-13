@@ -63,6 +63,14 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
+                        React query
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
                         Emotion
                     </Badge>
                 </Group>
@@ -108,6 +116,14 @@ const Skills = (): ReactElement => {
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
                         Nest.js
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        Puppeteer
                     </Badge>
                     <Badge
                         size="lg"
