@@ -19,9 +19,9 @@ const CustomApp = ({
     const preferredColorScheme = useColorScheme(colorScheme);
     const { store, props } = wrapper.useWrappedStore(rest);
 
-    useEffect(() => {
-        setCookie("color-scheme", preferredColorScheme);
-    });
+    // useEffect(() => {
+    //     setCookie("color-scheme", preferredColorScheme);
+    // });
 
     return (
         <ReactReduxProvider store={store}>
@@ -31,7 +31,7 @@ const CustomApp = ({
                 theme={{
                     dir: "ltr",
                     fontFamily: `"Open Sans", sans-serif`,
-                    colorScheme: preferredColorScheme,
+                    // colorScheme: preferredColorScheme,
                     globalStyles: (theme) => ({
                         html: {
                             scrollBehavior: "smooth",
@@ -49,7 +49,7 @@ const CustomApp = ({
 };
 
 CustomApp.getInitialProps = ({ ctx }: { ctx: GetServerSidePropsContext }) => ({
-    colorScheme: getCookie("color-scheme", ctx),
+    // colorScheme: getCookie("color-scheme", ctx),
 });
 
 export default CustomApp;

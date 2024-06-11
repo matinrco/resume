@@ -107,6 +107,38 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
+                        TanStack Router / React Router
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        SSR / SSG
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        CSS module / SASS
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        Mantine
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
                         Node.js
                     </Badge>
                     <Badge
@@ -116,6 +148,14 @@ const Skills = (): ReactElement => {
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
                         Nest.js
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        DDD
                     </Badge>
                     <Badge
                         size="lg"
@@ -155,7 +195,7 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
-                        Linux
+                        Linux (Debian)
                     </Badge>
                     <Badge
                         size="lg"
@@ -177,6 +217,78 @@ const Skills = (): ReactElement => {
                         size="lg"
                         sx={{ textTransform: "none" }}
                         variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        i18n
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        MinIO (S3)
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        PM2
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        ESLint / Prettier / Husky
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
+                        Directus
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "blue", deg: 60 }}
+                    >
+                        Strapi/Hasura/Supabase
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "blue", deg: 60 }}
+                    >
+                        Playwright
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "blue", deg: 60 }}
+                    >
+                        Astro
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "blue", deg: 60 }}
+                    >
+                        Nx / Turborepo / monorepo
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
                         gradient={{ from: "teal", to: "blue", deg: 60 }}
                     >
                         GraphQL
@@ -187,7 +299,23 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "teal", to: "blue", deg: 60 }}
                     >
-                        Directus/Strapi/Hasura/Supabase
+                        tRPC
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "blue", deg: 60 }}
+                    >
+                        ELK / APM
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "blue", deg: 60 }}
+                    >
+                        Sentry
                     </Badge>
                     <Badge
                         size="lg"
@@ -203,6 +331,14 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "orange", to: "red" }}
                     >
+                        Tauri
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "orange", to: "red" }}
+                    >
                         Microfrontend
                     </Badge>
                     <Badge
@@ -211,7 +347,23 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "orange", to: "red" }}
                     >
-                        AWS
+                        Prometheus / Loki / Grafana
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "orange", to: "red" }}
+                    >
+                        Kafka
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "orange", to: "red" }}
+                    >
+                        AWS (Terraform / ... )
                     </Badge>
                 </Group>
                 <Button
