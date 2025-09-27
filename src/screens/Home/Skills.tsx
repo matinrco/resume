@@ -47,6 +47,14 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
+                        Vite
+                    </Badge>
+                    <Badge
+                        size="lg"
+                        sx={{ textTransform: "none" }}
+                        variant="gradient"
+                        gradient={{ from: "teal", to: "lime", deg: 105 }}
+                    >
                         Next.js
                     </Badge>
                     <Badge
@@ -64,14 +72,6 @@ const Skills = (): ReactElement => {
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
                         React query
-                    </Badge>
-                    <Badge
-                        size="lg"
-                        sx={{ textTransform: "none" }}
-                        variant="gradient"
-                        gradient={{ from: "teal", to: "lime", deg: 105 }}
-                    >
-                        Emotion
                     </Badge>
                 </Group>
                 <Button
@@ -99,7 +99,7 @@ const Skills = (): ReactElement => {
                         variant="gradient"
                         gradient={{ from: "teal", to: "lime", deg: 105 }}
                     >
-                        Vite
+                        Emotion
                     </Badge>
                     <Badge
                         size="lg"

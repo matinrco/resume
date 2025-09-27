@@ -7,11 +7,11 @@ const Experience = (): ReactElement => {
             <Divider
                 my="xs"
                 variant="dashed"
-                label="Notable Experience"
+                label="Notable Recent Experience"
                 labelProps={{ size: "md", fw: "normal", color: "gray.7" }}
             />
             <Text size="md" color="gray.7">
-                Senior front-end dev @ParsTasmim
+                Senior front-end dev & Team-lead/Tech-lead @ParsTasmim
             </Text>
             <List pl="xs" mt="xs" c="gray.7" icon="•">
                 <List.Item>
@@ -20,22 +20,20 @@ const Experience = (): ReactElement => {
                         <List.Item>
                             main:
                             <List c="gray.7" icon="•">
-                                <List.Item>shop</List.Item>
-                                <List.Item>mshop</List.Item>
-                                <List.Item>marketplace</List.Item>
-                                <List.Item>document generator</List.Item>
+                                <List.Item>Shop</List.Item>
+                                <List.Item>mShop</List.Item>
+                                <List.Item>Marketplace</List.Item>
+                                <List.Item>Document generator</List.Item>
+                                <List.Item>CRM - FTTH CRM</List.Item>
                             </List>
                         </List.Item>
                         <List.Item>
                             other:
                             <List c="gray.7" icon="•">
-                                <List.Item>marketplace admin panel</List.Item>
-                                <List.Item>marketplace seller panel</List.Item>
-                                <List.Item>sul</List.Item>
-                                <List.Item>esourcing</List.Item>
-                                <List.Item>salesforce</List.Item>
-                                <List.Item>sim management</List.Item>
-                                <List.Item>dpos</List.Item>
+                                <List.Item>Marketplace admin panel</List.Item>
+                                <List.Item>Marketplace seller panel</List.Item>
+                                <List.Item>DPOS</List.Item>
+                                <List.Item>+ other projects</List.Item>
                             </List>
                         </List.Item>
                     </List>
@@ -44,7 +42,7 @@ const Experience = (): ReactElement => {
                     Team building, review, training, solution providing, tooling
                     & structure.
                 </List.Item>
-                <List.Item>7 years of experience</List.Item>
+                <List.Item>+7 years of experience</List.Item>
                 <List.Item>Irancell partner</List.Item>
             </List>
             <Space h="md" />
