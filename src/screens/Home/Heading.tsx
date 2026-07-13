@@ -43,7 +43,7 @@ const Heading = (): ReactElement => {
                             Matin Rezaei
                         </Text>
                         <Text size="md" fw="bold" color="gray.6">
-                            Just a dev (whatever I can)
+                            Senior Software Engineer (Frontend)
                         </Text>
                     </Stack>
                     <Stack spacing="xs">

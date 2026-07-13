@@ -1,69 +1,102 @@
 import React, { ReactElement } from "react";
-import { Box, Divider, Text, List, Space } from "@mantine/core";
+import { Box, Divider, Text, List, Space, Stack } from "@mantine/core";
 
 const Experience = (): ReactElement => {
     return (
-        <Box my="xl">
+        <Stack spacing="sm" my="xl">
             <Divider
-                my="xs"
                 variant="dashed"
                 label="Notable Recent Experience"
                 labelProps={{ size: "md", fw: "normal", color: "gray.7" }}
             />
-            <Text size="md" color="gray.7">
-                Senior front-end dev & Team-lead/Tech-lead @ParsTasmim
-            </Text>
-            <List pl="xs" mt="xs" c="gray.7" icon="•">
+            <Stack spacing={0}>
+                <Text size="md" weight="bold" color="gray.7">
+                    Senior Frontend Engineer / Frontend Team Lead — ParsTasmim
+                </Text>
+                <Text size="sm" color="gray.7">
+                    Partner company of Irancell
+                </Text>
+            </Stack>
+            <List pl="xs" c="gray.7" icon="•">
                 <List.Item>
-                    Projects
+                    Led a team of 7 frontend developers across multiple
+                    enterprise-scale applications, including:
                     <List c="gray.7" icon="•">
+                        <List.Item>E-commerce platform</List.Item>
+                        <List.Item>Marketplace platform</List.Item>
+                        <List.Item>Mobile commerce application</List.Item>
+                        <List.Item>Document generation system</List.Item>
+                        <List.Item>FTTH CRM system</List.Item>
                         <List.Item>
-                            main:
-                            <List c="gray.7" icon="•">
-                                <List.Item>Shop</List.Item>
-                                <List.Item>mShop</List.Item>
-                                <List.Item>Marketplace</List.Item>
-                                <List.Item>Document generator</List.Item>
-                                <List.Item>CRM - FTTH CRM</List.Item>
-                            </List>
+                            Marketplace admin and seller portals
+                        </List.Item>
+                        <List.Item>DPOS applications</List.Item>
+                        <List.Item>
+                            Planned OMS (Order Management System)
                         </List.Item>
                         <List.Item>
-                            other:
-                            <List c="gray.7" icon="•">
-                                <List.Item>Marketplace admin panel</List.Item>
-                                <List.Item>Marketplace seller panel</List.Item>
-                                <List.Item>DPOS</List.Item>
-                                <List.Item>+ other projects</List.Item>
-                            </List>
+                            ESB Billing system for generating subscriber bills
+                            and itemized bills, with Kubernetes-based scaling
+                            for handling very large document sizes
                         </List.Item>
                     </List>
                 </List.Item>
                 <List.Item>
-                    Team building, review, training, solution providing, tooling
-                    & structure.
+                    Took part in solution design for every feature from early
+                    project stages through implementation, release, and
+                    maintenance, working closely with product, backend, and QA
+                    teams.
                 </List.Item>
-                <List.Item>+7 years of experience</List.Item>
-                <List.Item>Irancell partner</List.Item>
+                <List.Item>
+                    Designed and maintained scalable frontend architecture using
+                    React, Next.js, TypeScript, and modern state management
+                    patterns.
+                </List.Item>
+                <List.Item>
+                    Established frontend engineering practices including code
+                    review standards, project structure, development workflows,
+                    tooling, and team collaboration processes.
+                </List.Item>
+                <List.Item>
+                    Mentored frontend developers through technical guidance,
+                    architecture discussions, code reviews, and knowledge
+                    sharing.
+                </List.Item>
+                <List.Item>
+                    Participated in architectural decisions with a focus on
+                    maintainability, scalability, and developer experience.
+                </List.Item>
             </List>
-            <Space h="md" />
-            <Text size="md" color="gray.7">
-                Senior front-end dev and QA/QC @Karen
-            </Text>
-            <List pl="xs" mt="xs" c="gray.7" icon="•">
+            <Stack spacing={0}>
+                <Text size="md" color="gray.7" weight="bold">
+                    Senior Frontend Engineer / QA Engineer — Karen
+                </Text>
+                <Text size="sm" color="gray.7">
+                    Project: Torch
+                </Text>
+            </Stack>
+            <List pl="xs" c="gray.7" icon="•">
                 <List.Item>
-                    Project name : torch (data-driven - nextjs app router - i18n
-                    - mantine - react query)
+                    Developed a data-driven web application using Next.js App
+                    Router, TypeScript, Mantine UI, React Query, and
+                    internationalization (i18n).
                 </List.Item>
                 <List.Item>
-                    QA engineer. collaborate in architecture and challenge it in
-                    every aspect.
+                    Worked across frontend development and quality engineering
+                    responsibilities, contributing to architecture reviews and
+                    challenging technical decisions.
                 </List.Item>
                 <List.Item>
-                    QC engineer. Implement cross service test project
-                    (Playwright)(planned)
+                    Designed and planned cross-service testing strategies using
+                    Playwright to improve system reliability and regression
+                    coverage.
+                </List.Item>
+                <List.Item>
+                    Collaborated with development teams to identify quality
+                    risks, improve workflows, and strengthen delivery processes.
                 </List.Item>
             </List>
-        </Box>
+        </Stack>
     );
 };
 
