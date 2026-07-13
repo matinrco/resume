@@ -27,6 +27,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         Frontend Engineering
@@ -125,6 +126,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         Backend & APIs
@@ -255,6 +257,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         Architecture & Engineering
@@ -377,6 +380,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         Testing & Quality
@@ -435,6 +439,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         DevOps & Infrastructure
@@ -573,6 +578,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         Databases & Storage
@@ -623,6 +629,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         AI-Assisted Development
@@ -689,6 +696,7 @@ const Skills = (): ReactElement => {
                 <Stack
                     align="flex-start"
                     spacing={`calc(${theme.spacing.xs} / 2)`}
+                    sx={() => ({ breakInside: "avoid" })}
                 >
                     <Text size="md" fw="normal" color="gray.7">
                         Tools & Workflow
